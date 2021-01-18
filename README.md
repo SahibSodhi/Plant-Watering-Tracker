@@ -4,8 +4,6 @@ I own multiple plants that run on different watering schedules and as a busy wor
 
 Common reminders and calendar apps are great because I can create custom repeat reminders (e.g. remind me to do X every 12 days), but they're not so helpful for my specific use case. I want an app that generates a new custom reminder to water my plants only *after* I have watered said plant, instead of simply sending a reminder every 12 days from the very first time I created the custom repeat reminder.
 
-See [my website here](https://valenlyn.com/water-your-plants-at-the-right-time) for my explanation of this problem with illustrations.
-
 ## Problems
 
 1. Death of cacti and succulents due to **overwatering**.
