@@ -1,0 +1,372 @@
+body {
+  overflow-x: hidden;
+}
+
+form {
+	margin: 10px;
+}
+
+.landing {
+	background-image: url("https://res.cloudinary.com/water123/image/upload/c_crop,h_3144,o_65,w_3840/v1555933239/chair-clothes-flora-1390062_lpgqxp.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 1000px;
+}
+
+.landing-text {
+	font-size: 60px;
+	padding: 45px 97px;
+	text-align: center;
+	font-family: 'Prata', serif;
+	color: #000000;
+	font-weight: 700;
+}
+
+.form-text {
+	font-family: 'Chivo', sans-serif;
+	color: #2E8B57;
+}
+
+.form-text-2 {
+	font-family: 'Chivo', sans-serif;
+}
+
+.form-btn {
+	background: #d15492;
+	padding: 15px 22px;
+	margin-right: 10px;
+	font-size: 20px;
+	font-family: 'Prata', serif;
+	color: #FFFFFF;
+	border: 0;
+}
+
+.form-btn-2 {
+	background: #2E8B57;
+	padding: 15px 22px;
+	font-size: 20px;
+	font-family: 'Prata', serif;
+	color: #FFFFFF;
+	border: 0;
+}
+
+.form-box {
+	display: block;
+	width: 100%;
+	padding: 7px;
+}
+
+.wrap {
+	margin: 200px;
+	/*background-color: pink;*/
+}
+
+.table-wrap {
+	margin: 10px 70px;
+}
+
+.form-container {
+	width: 20%;
+	margin: 10px auto;
+/*	background-color: green;*/
+}
+
+.login {
+	padding-left: 10px;
+	background-color: #2E8B57;
+	display: block;
+	width: inherit;
+	font-family: 'Prata', serif;
+	text-align: center;
+	font-size: 20px;
+	color: #000000;
+	text-decoration: none;
+	padding: 10px;
+	border: none;
+}
+
+a:hover .login {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.login:hover {
+	background-color: #000000;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.sign-up {
+	background: #2E8B57;
+	padding: 10px;
+}
+
+.sign-up-btn {
+	background-color: #000000;
+	width: 100%;
+	font-family: 'Prata', serif;
+	text-align: center;
+	font-size: 20px;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding: 15px;
+	border: none;
+}
+
+.plus {
+	display: block;
+	width: 85px;
+	height: 85px;
+	border-radius: 50%;
+	color:#f5f5f5;
+	text-align:center;
+	text-decoration:none;
+	background: #d15492;
+	border: none;
+	font-size: 50px;
+	font-weight: bold;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	margin: 20px;
+}
+
+.plus:hover {
+	background: #af4479;
+}
+
+a:hover plus {
+	text-decoration: none;
+}
+
+.wrapper {
+	position: relative;
+}
+
+.date {
+	font-family: 'Prata', serif;
+	text-align: center;
+	font-size: 50px;
+}
+
+.water {
+	border-radius: 3px;
+	margin: 1px auto;
+	background: #fde440;
+	border: 0px;
+	font-family: 'Prata', serif;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+.water:hover {
+	background: #d15492;
+}
+
+.water-sm {
+	border-radius: 3px;
+	margin: 1px auto;
+	background: #fde440;
+	border: 0px;
+	font-family: 'Prata', serif;
+	font-weight: 700;
+	font-size: 13px;
+}
+
+.card-wrapper {
+	margin: 20px 70px;
+}
+
+.notification {
+	background-color: none;
+	margin: 0px;
+	height: 70px;
+}
+
+.box-wrapper {
+	display: flex;
+	align-items: center;
+}
+
+.box {
+	width: 310px;
+	padding: 12px;
+	border-radius: 5px;
+	background-color: #2E8B57;
+	margin: 10px 15px;
+	display: flex;
+	align-content: space-around;
+	flex-direction: column;
+	position: relative;
+}
+
+.box-danger {
+	width: 310px;
+	padding: 15px;
+	border-radius: 5px;
+	background-color: #9f0c0c;
+	margin: 10px 15px;
+	display: flex;
+	align-content: space-around;
+	flex-direction: column;
+	position: relative;
+}
+
+.box-title {
+	color: white;
+	font-family: 'Prata', serif;
+	padding-top: 14px;
+	margin: 2px;
+	text-align: center;
+}
+
+.box-title:hover {
+	color: black;
+	text-transform: none;
+}
+
+.box-subtitle {
+	font-family: 'Prata', serif;
+	text-transform: lowercase;
+	font-style: italic;
+	text-align: center;
+	margin: 0;
+	color: #d3d4bd;
+}
+
+.box-instructions {
+	font-family: 'Chivo', sans-serif;
+	font-weight: 300;
+	text-align: center;
+	margin-bottom: 56px;
+	color: #f5f5dc;
+}
+
+h4 {
+	padding-top: 2px;
+}
+
+.actions {
+	position: absolute;
+	bottom: 0;
+	margin: 12px auto;
+	width: 286px;
+	display: flex;
+	justify-content: center;
+}
+
+.edit {
+	display: inline;
+}
+
+nav {
+	background-color: #d15492;
+	padding: 18px;
+	font-family: 'Prata', serif;
+	font-size: 22px;
+	display: flex;
+	flex-direction: row;
+}
+
+.nav-link, .nav-link-last {
+	padding: 10px 12px;
+	color: black;
+}
+
+.nav-link-last {
+	margin-left: auto;
+}
+
+.nav-link-last:hover {
+	color: white;
+	text-decoration: none;
+}
+
+.nav-link:hover {
+	color: white;
+}
+
+#tb-species {
+	width: 150px;
+}
+
+@media (orientation: portrait) and (max-width: 1064px) {
+
+/*	.card-wrapper {
+		margin: 20px 15px;
+	}
+
+	body {
+		background-color: pink;
+	}*/
+
+	.date {
+	font-family: 'Prata', serif;
+	text-align: center;
+	font-size: 40px;
+	margin-top: 0px;
+	}
+
+	.box {
+	width: 400px;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: #2E8B57;
+	margin: 12px 15px;
+	margin-bottom: 15px;
+	display: flex;
+	align-content: space-around;
+	flex-direction: column;
+	position: relative;
+	}
+
+	.box-instructions {
+	font-family: 'Chivo', sans-serif;
+	font-weight: 300;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 20px;
+	color: #f5f5dc;
+	}
+
+	h4 {
+		font-size: 30px;
+	}
+
+	.actions {
+	position: static;
+	bottom: 0;
+	margin: 20px 0 10px 0;
+	width: 270px;
+	display: flex;
+	justify-content: center;
+	}
+
+	.water {
+	border-radius: 3px;
+	margin: 1px auto;
+	background: #fde440;
+	border: 0px;
+	font-family: 'Prata', serif;
+	font-weight: 700;
+	font-size: 20px;
+}
+
+	nav {
+	display: flex;
+	flex-direction: row;
+	padding: 10px;
+	margin-bottom: 3px;
+	width: 100%;
+	position: static;
+	font-family: 'Prata', serif;
+	border-radius: 0;
+	font-size: 16px;
+	}
+
+	.landing-text {
+		font-size: 30px;
+		padding: 100px 45px;
+	}
+
+}
